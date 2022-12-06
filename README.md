@@ -24,7 +24,7 @@ Objekti koji učestvuju u ovom paternu su:
 
 Objekat **SpaceX** implementiran je kao neposredna anonimna funkcija. Funkcija se odmah izvršava wrepovanjem u zagradi nakon kojih slede dve dodatne zagrade. Zove se anonymous, jer nema ime ([Self-Invoking Functions](https://www.w3schools.com/js/js_function_definition.asp#:~:text=Self%2DInvoking%20Functions,self%2Dinvoke%20a%20function%20declaration.)).
 
-Metoda **getInstance** je deo SpaceX-a objekta koji vraća jednu instancu objekta dok zadržava privatnu referencu na njega koja nije dostupna public wolrd-u.
+Metoda **getInstance** je deo SpaceX-a objekta koji vraća jednu instancu objekta dok zadržava privatnu referencu na njega koja nije dostupna public world-u.
 
 Metoda **getInstance** demonstrira još jedan dizajn patern koji se zove **Lazy Load**. Lazy Load proverava je li instanca već stvorena; ako nije, stvara ga i storuje za buduću upotrebu. Svi sledeći pozivi primit će storuje instancu. Lazy Load je tehnika uštede procesora i memorije stvaranjem objekata samo kada je to apsolutno neophodno.
 
