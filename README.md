@@ -1,0 +1,1 @@
+# JavaScript_Singleton_Design_Pattern
