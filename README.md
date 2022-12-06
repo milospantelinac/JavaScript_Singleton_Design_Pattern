@@ -26,7 +26,7 @@ Objekat **SpaceX** implementiran je kao neposredna anonimna funkcija. Funkcija s
 
 Metoda **getInstance** je deo SpaceX-a objekta koji vraća jednu instancu objekta dok zadržava privatnu referencu na njega koja nije dostupna public world-u.
 
-Metoda **getInstance** demonstrira još jedan dizajn patern koji se zove **Lazy Load**. Lazy Load proverava je li instanca već stvorena; ako nije, stvara ga i storuje za buduću upotrebu. Svi sledeći pozivi primit će storuje instancu. Lazy Load je tehnika uštede procesora i memorije stvaranjem objekata samo kada je to apsolutno neophodno.
+Metoda **getInstance** demonstrira još jedan dizajn patern koji se zove **Lazy Load**. Lazy Load proverava je li instanca već stvorena; ako nije, stvara ga i storuje za buduću upotrebu. Svi sledeći pozivi primit će storovanu instancu. Lazy Load je tehnika uštede procesora i memorije stvaranjem objekata samo kada je to apsolutno neophodno.
 
 ```
 var SpaceX = (function () {
