@@ -1,1 +1,2 @@
-# JavaScript_Singleton_Design_Pattern
+# JavaScript - Singleton Design Pattern
+
