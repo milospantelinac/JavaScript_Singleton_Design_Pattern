@@ -6,7 +6,7 @@ Singleton Patern ograničava broj instanci određenog objekta na samo jednu. Ova
 
 Singleton je koristan u situacijama u kojima je potrebno koordinisati radnje celog sistema s jednog središnjeg mjesta. Primer je skup veze baze podataka. Skup upravlja stvaranjem, uništavanjem i vekom trajanja svih veza baze podataka za celu aplikaciju osiguravajući da se nijedna veza ne izgubi. 
 
-Nekoliko drugih paterna, kao što su Fectory, Prototip i Fasada, često se implementiraju kao Singletoni kada je potrebna samo jedna instanca.
+Nekoliko drugih paterna, kao što su Fectory, Prototip i Fasada, često se implementiraju kao Singleton kada je potrebna samo jedna instanca.
 
 ## Diagram 
 
