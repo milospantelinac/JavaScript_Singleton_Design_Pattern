@@ -10,4 +10,4 @@ Nekoliko drugih paterna, kao što su Fectory, Prototip i Fasada, često se imple
 
 ## Diagram 
 
-<img width="200" alt="singleton_diagram" src="https://user-images.githubusercontent.com/21141150/205887398-e77f30b7-5a8b-42c0-be49-39d64421ab45.png">
+<img width="200" alt="singleton_diagram" src="https://user-images.githubusercontent.com/21141150/205888517-0f166a8c-1e08-4898-860d-b44c6e820d6e.png">
