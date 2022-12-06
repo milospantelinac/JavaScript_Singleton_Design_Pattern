@@ -51,6 +51,7 @@ var instance1 = SpaceX.getInstance();
 var instance2 = SpaceX.getInstance();
 
 console.log("Da li je instanca ista? " + (instance1 === instance2));
+// → Da li je instanca ista? true
 ```
 
 
