@@ -50,7 +50,7 @@ var SpaceX = (function () {
 var instance1 = SpaceX.getInstance();
 var instance2 = SpaceX.getInstance();
 
-console.log("Da li je ista instanca? " + (instance1 === instance2));
+console.log("Da li je instanca ista? " + (instance1 === instance2));
 ```
 
 
